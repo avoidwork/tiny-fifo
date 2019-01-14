@@ -12,7 +12,7 @@ const cache = fifo(max, ttl = 0);
 
 Clears the contents of the cache
 
-	return {Object} fifo instance
+	return {Object} FIFO instance
 
 **Example**
 
@@ -26,7 +26,7 @@ cache.clear();
 Removes item from cache
 
 	param  {String} key Item key
-	return {Object}     fifo instance
+	return {Object}     FIFO instance
 
 **Example**
 
@@ -39,7 +39,7 @@ cache.delete("myKey");
 
 Evicts the first item from cache
 
-	return {Object} fifo instance
+	return {Object} FIFO instance
 
 **Example**
 
@@ -94,7 +94,7 @@ Sets item in cache
 
 	param  {String} key   Item key
 	param  {Mixed}  value Item value
-	return {Object}       fifo instance
+	return {Object}       FIFO instance
 
 **Example**
 

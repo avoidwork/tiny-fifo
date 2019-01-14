@@ -17,6 +17,8 @@
 			this.items = {};
 			this.last = null;
 			this.size = 0;
+
+			return this;
 		}
 
 		delete (key) {
@@ -53,6 +55,8 @@
 			this.first = item.next;
 			this.first.prev = null;
 			this.size--;
+
+			return this;
 		}
 
 		get (key) {

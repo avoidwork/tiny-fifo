@@ -1,7 +1,7 @@
 {
   "name": "tiny-fifo",
   "description": "Tiny FIFO cache for Client or Server",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "homepage": "https://github.com/avoidwork/tiny-fifo",
   "author": "Jason Mulligan <jason.mulligan@avoidwork.com>",
   "repository": {

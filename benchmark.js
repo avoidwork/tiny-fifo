@@ -1,7 +1,7 @@
 const path = require("path"),
 	fifo = require(path.join(__dirname, "lib", "tiny-fifo.js")),
 	precise = require("precise"),
-	nth = 2e3,
+	nth = 2e4,
 	cache = fifo(nth),
 	data = new Array(nth);
 
